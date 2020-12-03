@@ -20,7 +20,6 @@ def display_board(board):
 	print('\n'*4)
 	
 
-
 def player_input():
 
 	marker = ''
@@ -43,14 +42,9 @@ def player_input():
 		return ('O','X')
 
 
-
-
 def place_marker(board, marker, position):
     
     board[position] = marker
-
-
-
 
 
 def win_check(board, mark):
@@ -65,7 +59,6 @@ def win_check(board, mark):
     (board[1]==board[5]==board[9]==mark))
 
 
-
 def choose_first():
     if random.randint(0, 1) == 0:
         return 'Player 2'
@@ -73,12 +66,9 @@ def choose_first():
         return 'Player 1'
 
 
-
-
 def space_check(board, position):
     
     return board[position] == ' '
-
 
     
 def full_board_check(board):
@@ -90,7 +80,6 @@ def full_board_check(board):
 			return False
 
 	return True
-
 
 def player_choice(board):
 
@@ -104,7 +93,6 @@ def player_choice(board):
 	return position
 
 
-
 def replay():
 
 
@@ -115,7 +103,6 @@ def replay():
 	else:
 
 		return False
-
 
 
 
@@ -219,7 +206,7 @@ while True:
 				else:
 
 					turn = 'Player 1'
-
+					
 
 
 	if not replay():
