@@ -1,2 +1,3 @@
-# Tic-Tac-Toe
-My First project
+# Tic-Tac-Toe Multiplayer game 
+
+My First project!
